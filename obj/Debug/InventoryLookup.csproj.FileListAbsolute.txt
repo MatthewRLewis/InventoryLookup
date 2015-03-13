@@ -1,0 +1,17 @@
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\bin\InventoryLookup.dll
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\bin\InventoryLookup.pdb
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\bin\EntityFramework.dll
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\bin\Microsoft.Data.Edm.dll
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\bin\Microsoft.Data.OData.dll
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\bin\Microsoft.Data.Services.Client.dll
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\bin\Microsoft.Data.Services.dll
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\bin\System.Spatial.dll
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\bin\EntityFramework.xml
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\bin\Microsoft.Data.Edm.xml
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\bin\Microsoft.Data.OData.xml
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\bin\Microsoft.Data.Services.xml
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\bin\Microsoft.Data.Services.Client.xml
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\bin\System.Spatial.xml
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\obj\Debug\InventoryLookup.csprojResolveAssemblyReference.cache
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\obj\Debug\InventoryLookup.dll
+c:\users\mlewis\documents\visual studio 2012\Projects\InventoryLookup\InventoryLookup\obj\Debug\InventoryLookup.pdb

@@ -1,0 +1,48 @@
+﻿#rTable {
+	width:100%;
+        border-style: outset; 
+        border-width: 1px; 
+        border-spacing: 2px; 
+} 
+
+
+#Search {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#loadingDiv {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    vertical-align:middle;
+    text-align: center;
+}
+#loadingDiv2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    vertical-align:middle;
+    text-align: center;
+}
+
+
+input[type=submit] {padding:5px 15px; background: #00a7d0; border:solid none; color: white;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; }
+
+input[type=text] { 	width:60%;  margin-left: auto; }
+
+#inner {
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: #00a7d0;
+    color: white;
+   
+}

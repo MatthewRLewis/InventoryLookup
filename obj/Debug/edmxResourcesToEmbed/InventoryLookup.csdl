@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UsqlTransitoryModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="UsqlTransitoryEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="invlookups" EntityType="UsqlTransitoryModel.invlookup" />
+  </EntityContainer>
+  <EntityType Name="invlookup">
+    <Key>
+      <PropertyRef Name="prikey" />
+      <PropertyRef Name="category" />
+      <PropertyRef Name="inventory" />
+      <PropertyRef Name="warehouse" />
+    </Key>
+    <Property Name="prikey" Type="Int32" Nullable="false" />
+    <Property Name="subcategory" Type="String" MaxLength="8000" Unicode="false" FixedLength="false" />
+    <Property Name="quantity" Type="Int64" />
+    <Property Name="category" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="inventory" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="warehouse" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>

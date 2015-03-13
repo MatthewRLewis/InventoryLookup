@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UsqlTransitoryModelStoreContainer" CdmEntityContainer="invLookupEnt">
+    <EntitySetMapping Name="invlookups">
+      <EntityTypeMapping TypeName="UsqlTransitoryModel.invlookup">
+        <MappingFragment StoreEntitySet="invlookup">
+          <ScalarProperty Name="rItem" ColumnName="rItem" />
+          <ScalarProperty Name="prikey" ColumnName="prikey" />
+          <ScalarProperty Name="subcategory" ColumnName="subcategory" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="inventory" ColumnName="inventory" />
+          <ScalarProperty Name="warehouse" ColumnName="warehouse" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

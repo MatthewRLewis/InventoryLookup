@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UsqlTransitoryModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="UsqlTransitoryModelStoreContainer">
+    <EntitySet Name="invlookup" EntityType="UsqlTransitoryModel.Store.invlookup" store:Type="Views" store:Schema="dbo" store:Name="invlookup">
+      <DefiningQuery>SELECT 
+      [invlookup].[prikey] AS [prikey], 
+      [invlookup].[subcategory] AS [subcategory], 
+      [invlookup].[quantity] AS [quantity], 
+      [invlookup].[category] AS [category], 
+      [invlookup].[inventory] AS [inventory], 
+      [invlookup].[warehouse] AS [warehouse], 
+      [invlookup].[rItem] AS [rItem]
+      FROM [dbo].[invlookup] AS [invlookup]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'UsqlTransitory.dbo.invlookup' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="invlookup">
+    <Key>
+      <PropertyRef Name="prikey" />
+      <PropertyRef Name="inventory" />
+      <PropertyRef Name="warehouse" />
+      <PropertyRef Name="category" />
+    </Key>
+    <Property Name="prikey" Type="int" Nullable="false" />
+    <Property Name="subcategory" Type="varchar" />
+    <Property Name="quantity" Type="bigint" />
+    <Property Name="category" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="inventory" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="warehouse" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="rItem" Type="varchar" MaxLength="255" />
+  </EntityType>
+</Schema>
